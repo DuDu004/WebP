@@ -1,0 +1,60 @@
+실습문제 1
+1.	<DOCTYPE html>
+	[느낌표 존재하지 않음]
+	=>
+	<!DOCTYPE html>
+
+2.	span { color = blue; font-size : 20px; }
+	['='이 아닌 ':' 사용]
+	=> 
+	span { color : blue; font-size : 20px; }
+
+3.	<style>
+  		  h3 { text-align : center; color : darkred; }
+ 		  span { color = blue; font-size : 20px; }
+	</head>
+	[</style>가 존재하지 않음]
+	=>
+	<style>
+   		h3 { text-align : center; color : darkred; }
+    		span { color : blue; font-size : 20px; }
+	</style>
+	</head>
+
+실습문제 2
+1.	<html>
+	<body>
+	<meta charset="utf-8">
+	<title>오류를 찾으세요</title>
+	<style>
+	[<body>가 아닌 <head>가 있어야함]
+	=>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>오류를 찾으세요</title>
+	<style>
+
+2.	<style>
+		h3 { text-align: center color: darkred; }
+		span { color: blue; font-size: 20px; }
+	</style>
+	[center뒤에 세미콜론이 붙어야함]
+	=>
+	<style>
+   	 	h3 { text-align: center; color: darkred; }
+    	 	span { color: blue; font-size: 20px; }
+	</style>
+	
+3.	<h3>Elvis Presley</h>
+	[</h>가 아닌 </h3>이어야 함]
+	<h3>Elvis Presley</h3>
+
+
+
+
+
+
+
+
+
