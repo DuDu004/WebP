@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소프트웨어 기술 선호에 관한 설문 조사</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+        }
+
+        fieldset {
+            width: 400px;
+        }
+
+        textarea {
+            width: 380px;
+            height: 150px;
+        }
+
+        header {
+            display: block;
+            background-color: yellow;
+            width: 100%;
+            margin: 0px;
+            padding: 0px 0px;
+        }
+
+        section {
+            display: block;
+			margin: 20px 10px;
+            background-color: lightcoral;
+        }
+
+        footer.copyright {
+            display: block;
+            width: 100%;
+            margin: 0px;
+            padding: 20px 0px;
+            background-color: violet;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>설문지</h1>
+        <p>
+            소프트웨어 기술에 대한 의견을 듣습니다.
+            많은 참여 부탁드립니다.
+        </p>
+    </header>
+
+    <section>
+        <article>
+            <form>
+                학년
+                <label>
+                    <input type="radio" name="grade" value="1">
+                    1학년
+                </label>
+                <label>
+                    <input type="radio" name="grade" value="2">
+                    2학년
+                </label>
+                <label>
+                    <input type="radio" name="grade" value="3">
+                    3학년
+                </label>
+                <label>
+                    <input type="radio" name="grade" value="3">
+                    4학년
+                </label>
+            </form>
+
+            <br>
+
+            <form>
+                성별
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    남
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    여
+                </label>
+            </form>
+
+            <br>
+
+            <form>
+                관심 분야
+                <select name="interest">
+                    <option value="1">모바일 소프트웨어</option>
+                    <option value="2">웹 소프트웨어</option>
+                    <option value="3">인공지능</option>
+                    <option value="4">게임</option>
+                </select>
+            </form>
+
+            <br>
+
+            <form>
+                진로
+                <label>
+                    <input type="checkbox" name="career" name="a">
+                    개발
+                </label>
+                <label>
+                    <input type="checkbox" name="career" name="b">
+                    기획
+                </label>
+                <label>
+                    <input type="checkbox" name="career" name="c">
+                    영업
+                </label>
+                <label>
+                    <input type="checkbox" name="career" name="d">
+                    창업
+                </label>
+            </form>
+        </article>
+
+        <br>
+
+        <article>
+            남기고 싶은 말
+            <textarea></textarea>
+        </article>
+    </section>
+
+    
+    <footer class="copyright">
+        Copyright 2026 by 2023964045
+    </footer>
+</body>
+</html>
