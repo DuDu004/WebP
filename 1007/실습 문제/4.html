@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월화수목금토일</title>
+</head>
+<body>
+    <h3>
+        월화수목금토일
+    </h3>
+    <hr>
+    <script>
+        let days = prompt("월화수목금토일 중에서 입력하세요 (월, 화, 수, 목, 금, 토, 일):");
+        switch(days) {
+            case "월":
+            case "목":
+                document.write(days + "은 출근")
+                break;
+            case "화":
+            case "수":
+                document.write(days + "는 출근")
+                break;
+            case "금":
+            case "일":
+                document.write(days + "은 휴일")
+                break;
+            case "토":
+                document.write(days + "는 휴일")
+                break; 
+            default:
+                alert("잘못된 입력입니다. 월, 화, 수, 목, 금, 토, 일 중에서 입력하세요.");
+        }
+    </script>
+</body>
+</html>
