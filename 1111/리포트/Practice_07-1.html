@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>산수를 풀어 봅시다.</title>
+    <style>
+        td {
+            padding-left: 10px;
+            padding-right: 10px;
+        } 
+    </style>
+    <script>
+        function calc() {
+            var correct = 0;
+            var questions = document.getElementsByClassName("question");
+            var answers = document.getElementsByClassName("answer");
+            for (var i=0; i<questions.length; i++) {
+                var question = questions[i].innerHTML;
+                var correctAnswer = eval(question);
+                var userAnswer = answers[i].value;
+                if (userAnswer == correctAnswer) {
+                    questions[i].style.textDecoration = "none";
+                    correct+=1;
+                }
+                else {
+                    questions[i].style.textDecoration = "line-through";
+                }
+            }
+            document.getElementById("result").innerHTML = correct;
+        }
+    </script>
+</head>
+<body>
+    <h3>산수 문제를 풀어 봅시다</h3>
+    <hr>
+    <form>
+        <table>
+             <tr>
+                <td class="question">5*6</td>
+                <td><input class="answer" type="text" size="10"></td>
+            </tr>
+            <tr>
+                <td class="question">7+5*3</td>
+                <td><input class="answer" type="text" size="10"></td>
+            </tr>
+            <tr>
+                <td class="question">23*2</td>
+                <td><input class="answer" type="text" size="10"></td>
+            </tr>
+            <tr>
+                <td class="question">35-7</td>
+                <td><input class="answer" type="text" size="10"></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="calc()">채점</button></td>
+                <td><span id="result">0</span></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
