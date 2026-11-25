@@ -8,10 +8,19 @@ Google Apps Script(GAS)와 Google Sheets를 연결해 **저녁 메뉴에 대한 
 
 | 구분 | 링크 | 설명 |
 |---|---|---|
+| 🌐 배포된 웹 앱 | **[저녁 메뉴 신청하기](https://url.kr/6vg128)** | 사용자가 실제로 메뉴를 신청하는 웹 앱 |
 | Google Apps Script 프로젝트 | [11월 25일 저녁 메뉴 추천](https://script.google.com/d/1XSS1hebRBLcs3dQ1ZdYr9XgamX0FcGsabM3OJFnupw6SnQzgrqZvzW2a/edit?usp=drivesdk) | `Code.gs`, `index.html`을 관리하는 프로젝트 편집 화면 |
 | Google Sheets 데이터베이스 | [11월 25일 저녁 신청 받기](https://docs.google.com/spreadsheets/d/1PkdxzJzNuzwZUM-hPPhIsgfgcslXRUpc9YH1CJ1r7JY/edit?usp=drivesdk) | 제출된 메뉴 신청 내용을 저장하는 스프레드시트 |
 
-> **참고:** 위의 프로젝트 편집 링크와 스프레드시트 링크는 접근 권한이 있는 계정에서만 열릴 수 있습니다. 실제 사용자가 접속할 **배포된 웹 앱 URL**은 별도로 README에 추가해 주세요. 응답자의 이름과 의견이 저장되는 스프레드시트는 공개 편집 권한을 부여하지 않는 것이 안전합니다.
+### 📱 웹 앱 바로 접속하기
+
+**접속 주소:** https://url.kr/6vg128
+
+[![11월 25일 저녁 메뉴 신청 웹 앱 QR코드](./qr.png)](https://url.kr/6vg128)
+
+위 QR코드를 휴대폰 카메라로 스캔하거나 이미지를 클릭하면 웹 앱에 접속할 수 있습니다.
+
+> **참고:** Google Apps Script 프로젝트 편집 링크와 스프레드시트 링크는 접근 권한이 있는 계정에서만 열릴 수 있습니다. 응답자의 이름과 의견이 저장되는 스프레드시트는 공개 편집 권한을 부여하지 않는 것이 안전합니다.
 
 ## 📌 주요 기능
 
@@ -52,7 +61,8 @@ Google Apps Script(GAS)와 Google Sheets를 연결해 **저녁 메뉴에 대한 
 11월25일-저녁메뉴-추천/
 ├── Code.gs       # 웹 앱 실행 및 응답 저장
 ├── index.html    # 화면, CSS, 클라이언트 JavaScript
-└── README.md     # 프로젝트 소개
+├── qr.png        # 배포된 웹 앱 접속 QR코드
+└── README.md     # 프로젝트 소개 및 링크
 ```
 
 ## 🚀 실행 및 배포 방법
