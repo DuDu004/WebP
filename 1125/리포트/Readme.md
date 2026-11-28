@@ -18,7 +18,7 @@ CPU와 GPU를 중심으로 메인보드, 메모리, 저장장치, 쿨러, 케이
 
 ### 📱 QR코드로 웹 앱 접속
 
-**웹 앱 링크:** https://url.kr/11g267
+**웹 앱 링크:** https://url.kr/odl9b5
 
 [![WATTMAP 컴퓨터 파워 계산기 QR코드](./qr.png)](https://url.kr/odl9b5)
 
