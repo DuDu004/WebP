@@ -14,8 +14,6 @@ CPU와 GPU를 중심으로 메인보드, 메모리, 저장장치, 쿨러, 케이
 | Google Sheets · 견적 기록 DB | [컴퓨터 파워 계산기](https://docs.google.com/spreadsheets/d/1BISBuhJzNZWtjXV3LVIH8FszaEqQg8X_CTJeo4RDqdc/edit) | 견적요약, 견적기록, 이전양식_보관 |
 | Google Sheets · 부품 사양 DB | [WATTMAP 컴퓨터 부품 사양 DB](https://docs.google.com/spreadsheets/d/1Y9onLtaWCrmEdw53z-dMPxtLmUFtG7Yfot58yMP48ak/edit) | CPU, GPU, 메인보드 규격 등 부품 사양 |
 
-> Google Sheets 링크는 **접근 권한이 부여된 계정에서만 열릴 수 있습니다.** 저장된 견적과 관리키 해시는 보호해야 하므로 스프레드시트에 '모든 사용자 · 편집자' 권한을 설정하지 마세요. 위 웹 앱 주소는 사용자 제공 링크이며, 소스 수정 사항은 새로운 배포 버전으로 갱신해야 반영됩니다.
-
 ### 📱 QR코드로 웹 앱 접속
 
 **웹 앱 링크:** https://url.kr/odl9b5
